@@ -10,8 +10,8 @@
 
     <v-row>
       <p class="text--secondary mb-8">
-        🥑 <b>WEBVPN Converter</b> can help you convert a BIT local area network
-        URL into its corresponding WEBVPN URL so that you can access BIT local
+        🥑 <b>WEBVPN Converter</b> can help you convert a BUCT local area network
+        URL into its corresponding WEBVPN URL so that you can access BUCT local
         resources from anywhere in the world.
       </p>
     </v-row>
@@ -20,7 +20,7 @@
       <v-text-field
         label="Original URL"
         v-model="originalUrl"
-        placeholder="http://jwms.bit.edu.cn"
+        placeholder="jwglxt.buct.edu.cn"
       />
       <v-tooltip bottom>
         <template v-slot:activator="{ on, attrs }">
@@ -173,6 +173,10 @@ export default Vue.extend({
         name: '中国知网',
         url: 'www.cnki.net'
       }
+      {
+        name: '北化云盘',
+        url: 'meepo.buct.edu.cn'
+      }
     ]
   }),
 
@@ -191,7 +195,7 @@ export default Vue.extend({
     },
 
     encryptLibVPN (url: string): string {
-      return `https://libvpn.bit.edu.cn${convert(url)}`
+      return `https://vpn.buct.edu.cn${convert(url)}`
     },
 
     encryptUrl (url: string): string {
