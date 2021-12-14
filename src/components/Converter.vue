@@ -172,7 +172,7 @@ export default Vue.extend({
       {
         name: '中国知网',
         url: 'www.cnki.net'
-      }
+      },
       {
         name: '北化云盘',
         url: 'meepo.buct.edu.cn'
