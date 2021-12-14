@@ -4,6 +4,9 @@
 
 > 🥑 WEBVPN Converter can help you convert a BIT local area network URL into its corresponding WEBVPN URL so that you can access BIT local resources from anywhere in the world.
 
+## Thanks
+This project comes from [Spencer Woo's BIT webvpn project](https://github.com/spencerwooo/bit-webvpn-converter)
+
 ## Project setup
 ```
 yarn install
