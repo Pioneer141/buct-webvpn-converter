@@ -3,7 +3,7 @@
     <v-row class="text-h4 mb-4">
       <h4>
         <v-icon class="mr-2" color="primary">mdi-link-variant</v-icon
-        ><a href="https://webvpn.bit.edu.cn/" target="_blank">WEBVPN</a> URL
+        ><a href="https://w.buct.edu.cn/" target="_blank">WEBVPN</a> URL
         Converter
       </h4>
     </v-row>
@@ -50,7 +50,7 @@
         label="WEBVPN"
         v-model="webvpnUrl"
         readonly
-        placeholder="https://webvpn.bit.edu.cn/..."
+        placeholder="https://w.buct.edu.cn/..."
       />
 
       <v-tooltip bottom>
@@ -154,16 +154,20 @@ export default Vue.extend({
 
     commonResources: [
       {
-        name: '本科生教务系统',
-        url: 'jwms.bit.edu.cn'
+        name: '研究生教务系统',
+        url: 'gmis.buct.edu.cn'
       },
       {
-        name: '学生评教系统',
-        url: 'pj.bit.edu.cn'
+        name: '教务管理系统系统',
+        url: 'jwglxt.buct.edu.cn'
       },
       {
         name: '软件正版化平台',
-        url: 'ca.bit.edu.cn'
+        url: 'software.buct.edu.cn'
+      },
+      {
+        name: 'IPTV',
+        url: 'iptv.buct.edu.cn'
       },
       {
         name: '中国知网',
@@ -191,7 +195,7 @@ export default Vue.extend({
     },
 
     encryptUrl (url: string): string {
-      return `https://webvpn.bit.edu.cn${convert(url)}`
+      return `https://w.buct.edu.cn${convert(url)}`
     },
 
     clearInputUrl (): void {
@@ -200,7 +204,7 @@ export default Vue.extend({
 
     copy (value: string): void {
       if (this.webvpnUrl === '') {
-        value = 'https://webvpn.bit.edu.cn'
+        value = 'https://w.buct.edu.cn'
         this.snackbarCopyNote = 'Default WEBVPN URL copied!'
       }
       console.log('Copied value:', value)
