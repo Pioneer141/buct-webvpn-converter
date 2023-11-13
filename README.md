@@ -4,7 +4,7 @@ _Connect to your local networks in BUCT from anywhere in the world._
 
 ## Demo
 
-[![screenshot](assets/screenshot.png)](https://buctvpn.engineerlion.tech)
+[![screenshot](assets/buctvpn.engineerlion.tech.png)](https://buctvpn.engineerlion.tech)
 
 ## API reference
 
