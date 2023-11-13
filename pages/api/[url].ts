@@ -3,7 +3,7 @@ import { encryptUrl } from '../../lib/convert'
 
 const prefixOptions = {
   web: 'https://w.buct.edu.cn',
-  lib: 'https://nlibvpn.buct.edu.cn',
+  lib: 'https://tsg.buct.edu.cn',
 } as const
 
 export default function handler(req: NextApiRequest, res: NextApiResponse) {
