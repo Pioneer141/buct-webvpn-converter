@@ -2,7 +2,7 @@ import type { NextApiRequest, NextApiResponse } from 'next'
 import { encryptUrl } from '../../lib/convert'
 
 const prefixOptions = {
-  web: 'https://webvpn.buct.edu.cn',
+  web: 'https://w.buct.edu.cn',
   lib: 'https://nlibvpn.buct.edu.cn',
 } as const
 
