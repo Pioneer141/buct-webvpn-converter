@@ -15,7 +15,7 @@ import { decryptUrl, encryptUrl } from '../lib/convert'
 import { useLocalStorageObject } from 'react-use-window-localstorage'
 
 const prefix = {
-  web: 'https://webvpn.buct.edu.cn',
+  web: 'https://w.buct.edu.cn',
   lib: 'https://nlibvpn.buct.edu.cn',
 }
 
@@ -59,7 +59,7 @@ const ConverterCard = ({ reverse = false }: { reverse?: boolean }) => {
         </label>
         <input
           type="url"
-          placeholder={reverse ? 'https://webvpn.buct.edu.cn/...' : 'https | ssh | vnc | telnet | rdp://...'}
+          placeholder={reverse ? 'https://w.buct.edu.cn/...' : 'https | ssh | vnc | telnet | rdp://...'}
           value={enteredUrl}
           onChange={(e) => {
             setUserEntering(true)
