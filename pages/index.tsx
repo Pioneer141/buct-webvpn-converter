@@ -27,9 +27,9 @@ const Home: NextPage = () => {
 
       <p className="text-center leading-2 py-4 lg:leading-6 text-gray-700 dark:text-gray-400">
         <span className="hidden md:block">
-          Convert BIT local network URLs into Web VPN URLs. <br />
+          Convert BUCT local network URLs into Web VPN URLs. <br />
         </span>
-        <span>Connect to your local networks in BIT from anywhere in the world.</span>
+        <span>Connect to your local networks in BucT from anywhere in the world.</span>
       </p>
 
       <ConverterCard />
