@@ -3,7 +3,7 @@ const Footer = () => (
     Created with love at BUCT
     <br />
     <a
-      href="https://engineerlion.tech"
+      href="https://github.com/Pioneer141"
       target="_blank"
       rel="noopener noreferrer"
       className="underline opacity-80 hover:opacity-100 transition-all duration-50"
